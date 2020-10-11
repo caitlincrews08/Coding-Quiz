@@ -39,6 +39,22 @@ function getQuestion() {
 
   // clear last question choices
   choicesEl.innerHTML = "";
+
+  // loop over choices
+  currentQuestion.choices.forEach(function(choice, i) {
+
+    // create buttons for choices
+    var choiceBtn = document.createElement("button");
+    choiceBtn.setAttribute("class", "choice");
+    choiceBtn.setAttribute("value", choice);
+    choiceBtn.textContent = i + 1 + "." + choice;
+
+    // click event for user choice
+    choiceBtn.onclick = userChoice;
+
+    // display on page
+    choicesEl.appendChild(choiceBtn);
+  })
 };
 
 function userChoice () {
@@ -62,3 +78,5 @@ function clock() {
 function saveScore() {
 
 };
+
+startBtn.onclick = startQuiz;

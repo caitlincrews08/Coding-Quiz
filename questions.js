@@ -17,7 +17,7 @@ var questions = [
   {
     title: "What signifies an ID?",
     choices: ["/", "#", ".", "$"],
-    answer: "#",
+    answer: "#"
   },
   {
     title: "What is an important tool used by programmers to debug?",
@@ -31,7 +31,7 @@ var questions = [
   },
   {
     title: "ul stands for:",
-    choices: ["ultimate lines", "ultimate list", "unordered lines", "Unordered list"],
+    choices: ["ultimate lines", "ultimate list", "unordered lines", "unordered list"],
     answer: "unordered list"
   },
 ];
