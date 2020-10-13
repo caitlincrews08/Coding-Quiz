@@ -10,7 +10,7 @@ var questions = [
     answer: "all of the above"
   },
   {
-    title: "What do closing tabs always include?",
+    title: "What do closing tags always include?",
     choices: ["/", "#", ".", "$"],
     answer: "/"
   },
