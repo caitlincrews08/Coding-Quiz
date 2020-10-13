@@ -9,4 +9,6 @@ The quiz begins when the user clicks "Start Quiz". A timer begins to count down 
 ## Screenshot of depoloyed site
 
 ![Start Quiz img](/StartQuiz.png)
-Format: ![Alt Text](url)
+
+## Credits
+This assignment was completed with help from my tutor, Janvier.
